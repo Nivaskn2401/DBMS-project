@@ -1,0 +1,23 @@
+LIBRA — PREMIUM UI EDITION (Mac)
+
+1. Extract the ZIP first (do not run the app from inside the ZIP preview).
+2. Open the extracted Libra_Fixed folder.
+3. Double-click Start_Libra.command. If macOS blocks it, right-click it and choose Open.
+4. The first launch needs internet to install Python packages and may take a few minutes.
+5. Libra opens in your browser at http://localhost:8501.
+6. Keep the Terminal window open while using Libra. Stop the app with Control+C in Terminal.
+
+ADD / DELETE:
+- Choose Books to add, search, edit, export, or delete books.
+- Choose Members to register, search, edit, export, or delete members.
+- Add forms and delete controls are expanded and visible on their pages.
+- Deleting a book/member permanently removes its related loan history. You must tick the confirmation checkbox before the Delete button becomes active.
+
+IMPORTANT — KEEP YOUR LATEST DATA:
+This package includes a copy of the database from the previous package, but it cannot include any books or members you added afterward on your Mac.
+If you have already added records in your old Libra folder:
+1. Stop the old app in its Terminal window with Control+C.
+2. Make a backup copy of the old folder's library_db.sqlite3.
+3. Copy that old library_db.sqlite3 into this new Libra_Fixed folder, replacing the included database file.
+4. Then launch Start_Libra.command from this new folder.
+Only replace the database file, not the Python app files.
